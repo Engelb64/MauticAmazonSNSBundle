@@ -1,0 +1,14 @@
+{
+  "name": "amazon-mobility/mautic-amazon-s-n-s-bundle",
+  "description": "Provides SMS transport using Amazon SNS API Integration",
+  "type": "mautic-plugin",
+  "license": "GPL-3.0-or-later",
+  "keywords": ["mautic","plugin","integration","transport","sms"],
+  "extra": {
+    "install-directory-name": "MauticAmazonSNSBundle"
+  },
+  "require": {
+    "php": ">=7.4.0 <8.1",
+    "mautic/core-lib": "^4.0"
+  }
+}
